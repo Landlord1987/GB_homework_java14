@@ -27,7 +27,7 @@ public class Main {
 
 
     }
-
+// Возвращает массив после 4
     public static int[] getMas(int[] arr) {
         int four = -1;
 
@@ -50,6 +50,7 @@ public class Main {
         return arr1;
     }
 
+    // Возвращает true or false по условиям задачи 2
     public static boolean getMas2(int[] arr) {
         int sum = 0;
         for (int i = 0; i < arr.length; i++) {

@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 public class MainTest {
-
+// Набор тестов для первой задачи
     @Test
     public void getMasTest1(){
         int[] m1 = {0, 1, 2, 4, 0, 5, 6};
@@ -52,6 +52,7 @@ public class MainTest {
         Assertions.assertNotNull(Main.getMas(m2));
     }
 
+    //Набор тестов для второй задачи
     @Test
     public void getMas2Test1() {
         int[] m11 = {1, 1, 1, 1, 1, 1, 1};
